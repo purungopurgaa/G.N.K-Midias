@@ -1,0 +1,30 @@
+:root { 
+    --cor-principal: #4682b4;
+    --cor-secundária: #87ceeb;
+    --cor-botão: #4682b4;
+    --cor-do-fundo: #1c1c1c;
+}
+body{
+    background-color: var(--cor-do-fundo);
+    color: var(--cor-principal);
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.principal{
+  background-image: url('img/background.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.conteiner{
+  height: 100vh;
+}
+.img{
+  width: 30%;
+  margin: 0%;
+}
+   
+    
